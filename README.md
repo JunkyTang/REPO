@@ -16,4 +16,8 @@ git push origin :refs/tags/tag-name
 pod spec lint --allow-warnings
 ```
 
+## 提交
 
+```
+pod repo push JKRepo lib_name.podspec --allow-warnings
+```
