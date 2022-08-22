@@ -19,5 +19,5 @@ pod spec lint --allow-warnings
 ## 提交
 
 ```
-pod repo push JKRepo lib_name.podspec --allow-warnings
+pod repo push JKRepo lib_name.podspec --skip-import-validation --allow-warnings
 ```
